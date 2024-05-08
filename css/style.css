@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body p{
+    margin: 0px;
+  }
+
+.location-cls p{
+    margin-bottom: 0px;
+    font-size: 80%;
+}
+.location-cls p i, .fa-magnifying-glass{
+    color: #FFB30E;
+}
+.btn-login{
+    background-color: white;
+    color: #FFB30E;
+    box-shadow: 0px 2px 5px rgba(255, 179, 14, 0.5);
+    border: transparent;
+    padding: 8px 20px;
+    border-radius: 6px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 80%;
+}
+.search-div span{
+    font-size: 80%;
+    font-weight: 600;
+}
+
+header{
+    background-image: linear-gradient(to top, #FFB30E, #FFBA26);
+    padding: 100px 0px 0px 0px;
+}
+
+.header-text h1{
+    font-size: 400%;
+    font-weight: 700;
+    color: white;
+}
+.header-form{
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    border-radius: 20px;
+}
+.email-input{
+    display: flex;
+}
+.email-input input{
+    border: 0px solid transparent;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.email-input hr{
+    margin: 30px 0px;
+}
+.btn-delivery{
+    background-color: rgba(241, 114, 40, 0.1);
+    color: #FFB30E;
+    border: transparent;
+    padding: 8px 20px;
+    border-radius: 6px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 80%;
+}
+.btn-pickup{
+    background-color: transparent;
+    color: gray;
+    border: transparent;
+    padding: 8px 20px;
+    border-radius: 6px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 80%;
+}
+.search-loc{
+    display: flex; 
+    width: 100%; 
+    align-items: center; 
+    position: relative;
+}
+.search-loc i{
+    position: absolute; 
+    left: 10px;
+}
+.btn-search{
+    background-color: #F65900;
+    border-radius: 5px;
+    border: 0px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.card-section{
+    margin-top: 100px;
+}
+.sale-offer p{
+    font-size: 150%;
+    font-weight: 800;
+}
+.sale-offer p span{
+    display: flex;
+    justify-content: center;
+}
+
+.sale-offer{
+    position: absolute;
+    left: 0;
+    background-color: orange;
+    padding: 16px;
+    bottom: 0;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+}
+
+.card-1{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-1 img{
+    border-radius: 20px;
+}
+.card-content, .card-content1{
+    position: absolute;
+    top: 280px !important;
+}
+.card-content h6, .card-content1 h6{
+    font-weight: 600;
+}
+
+.card-content p, .card-content1 p{
+    background-color: rgba(241, 114, 40, 0.1);
+    color: #F17228;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.how-section{
+    background-image: linear-gradient(to top, rgba(253, 237, 202, 0), rgba(255, 206, 103, 0.22));
+    margin-top: 200px;
+    padding: 80px 0px;
+}
+.how-section h3{
+    color: #F17228;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.how-card{
+    text-align: center;
+}
+.how-card h6{
+    font-weight: 600;
+}
+.how-card p{
+    font-size: 14px;
+}
+.popular-food button{
+    width: 100%;
+    background-color: #F17228;
+    color: white;
+    font-weight: 600;
+}
+.popular-food img{
+    border-radius: 10px;
+}
+.popular-food h6{
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.conteent{
+    display: flex; 
+    align-items: center;
+    color: #F17228;
+}
+.conteent p{
+    font-size: 12px;
+}
+.popular-sec h3{
+    color: black;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.popular-sec{
+    margin: 100px 0px;
+}
+
+.featured-sec h3{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.food-content{
+    display: flex;
+    align-items: center;
+}
+.inner-cont{
+    margin-left: 20px;
+}
+.food-content{
+    margin: 20px 0px;
+}
+.open{
+    background-color: rgba(241, 114, 40, 0.2);
+    color: #F65900;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.inner-cont h6{
+    font-weight: 600;
+    margin: 0px;
+}
+.inner-cont p{
+    color: #F17228;
+}
+.food-img .off{
+    background-color: #F65900;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    display: block;
+    top: 20px;
+    left: 20px;
+    
+    
+}
+.food-img .fast{
+    background-color: #FFB30E;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    display: block;
+    top: 20px;
+    left: 120px;
+    
+    
+}
+.food-img{
+    position: relative;
+}
+.open2{
+    background-color: rgba(121, 185, 60, 0.2);
+    color:  #79B93C;
+}
+.food-card{
+    margin: 20px 0px;
+}
+.view-all{
+    margin-top: 50px;
+}
+.view-all button{
+    background-color: #F17228;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(255, 179, 14, 0.5);
+}
+.search-food{
+    margin: 100px 0px 0px 0px;
+}
+.search-food .row .col-2{
+    text-align: center;
+}
+.search-food .row .col-2 p{
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.view-all-l-r span{
+    background-color: #FFB30E;
+    padding: 20px 26px;
+    border-radius: 40px;
+    color: white;
+}
+.view-all-l-r a{
+    text-decoration: none;
+    color: #FFB30E;
+}
+.search-food{
+    background-color: #FEFAF1;
+    padding: 100px 0px;
+}
+.install-sec{
+    background-color: #FEEFD0;
+    padding: 100px 0px 0px 0px;
+}
+.discount, .live, .quick{
+    display: flex;
+    align-items: center;
+}
+.discount, .live{
+    border-right: 1px solid black;
+    height: 10vh;
+}
+.install-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.discount h3, .live h3, .quick h3{
+    margin-left: 10px;
+    color: #FB3C00;
+    font-weight: 600;
+    font-size: 26px;
+}
+.install-sec .upp
+{
+    background-color: white;
+    box-shadow: 0px 6px 12px rgba(255, 179, 14, 0.5);
+    padding: 30px 0px;
+    border-radius: 50px;
+}
+.install-content h1{
+    background: -webkit-linear-gradient(120deg, #FF8A00, #FFB800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  margin-left: 40px;
+}
+.install-content p{
+    margin-left: 40px;
+}
+.down{
+    margin-top: 100px;
+}
+.install-sec{
+    position: relative;
+}
+/* .install-sec::before{
+    content: url("/assets/Vector\ 92.png");
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
+.down .row{
+    display: flex;
+    align-items: center;
+}
+.card-contentt{
+    background-color: white;
+    padding: 60px 0px 0px 30px;
+    border-radius: 20px;
+}
+.card-content-2{
+    background-color: white;
+    padding: 60px 50px 0px 0px;
+    border-radius: 20px;
+} 
+ .card-contentt h3, .card-content-2 h3{
+    font-weight: 700;
+}
+.card-contentt p, .card-content-2 p{
+    margin-bottom: 30px;
+}
+.card-contentt h3 span, .card-content-2 h3 span{
+    color: #F17228;
+}
+.card-contentt button, .card-content-2 button{
+    border: none;
+    padding: 14px 100px;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(to left, #FF8A00, #FFB800);
+}
+.card-imggg{
+    text-align: end;
+    padding: 0px;
+}
+.card-img-2{
+    text-align: start;
+    padding: 0px;
+}
+.card-roww, .second-card-row{
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(217, 217, 217, 0.8);
+}
+.carrdss{
+    margin-top: 120px;
+}
+.card-roww, .second-card-row{
+    border-radius: 20px;
+}
+.card-imggg img{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.card-img-2 img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.contt-2, .contt-3{
+    margin-top: 100px;
+}
+.banner-sec{
+    margin-top: 100px;
+    background-image: url("/assets/baner-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.banner-sec h1{
+    font-size: 3rem;
+}
+.banner-sec button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #F65900;
+    color: white;
+    font-weight: 600;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-row ul, .footer-second-row ul{
+    list-style-type: none;
+    padding: 0px;
+}
+footer{
+    background-color: #212121;
+    color: white;
+    padding: 100px 0px;
+}
+.social-icons{
+    display: flex;
+}
+.subscribe::placeholder {
+    color: white;
+}
+.fa-envelope{
+    color: white;
+}
+.social-icons{
+    margin: 20px 0px;
+}
+.social-icons .fa-facebook, .social-icons .fa-twitter{
+    margin-left: 20px;
+}
+.footer-parag{
+    margin-bottom: 20px;
+}
